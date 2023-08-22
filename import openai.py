@@ -2,7 +2,7 @@ import openai
 import requests
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'sk-nnn'
 
 
 # Define a prompt related to software development

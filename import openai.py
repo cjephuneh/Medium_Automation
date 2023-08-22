@@ -36,7 +36,7 @@ generated_tags = tags_response.choices[0].text.strip().split("\n")
 print("Generated Tags:\n", generated_tags)
 
 # Medium API endpoint for creating a post
-MEDIUM_API_URL = f'https://api.medium.com/v1/users/19ac3e209ad1e8c087055cfe4672985a34493bdc4bd4a49a47f93b99ba724b186/posts'
+MEDIUM_API_URL = f'https://api.medium.com/v1/users/777/posts'
 
 # Create and post a new article on Medium
 def create_post_on_medium(title, content, tags):
